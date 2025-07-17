@@ -1,0 +1,29 @@
+{
+  "name": "uo-showdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrsimonelli/uo-showdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nrsimonelli/uo-showdown/issues"
+  },
+  "homepage": "https://github.com/nrsimonelli/uo-showdown#readme",
+  "devDependencies": {
+    "turbo": "^2.5.5"
+  }
+}
